@@ -2,7 +2,7 @@ public abstract class VeiculoTerrestre extends Veiculo {
     protected String placa;
 
     public String getPlaca() {
-        return this.placa;
+        return placa;
     }
 
     public void setPlaca(String placa) {
@@ -12,6 +12,8 @@ public abstract class VeiculoTerrestre extends Veiculo {
     public VeiculoTerrestre(int anoFabricacao) {
         super(anoFabricacao);
     }
+
+
 
     @Override
     public double retornarPrecoDeVenda(int anoCorrente) {
